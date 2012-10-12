@@ -1,0 +1,215 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html>
+  <head>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+      <meta name="description" content="LiteStack.com" />
+      <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+      <link rel="stylesheet" href="css/royalslider.css">
+      <link rel="stylesheet" href="css/popup.css">
+      <script src='js/jquery-1.6.2.min.js'></script>
+      <script src="js/jquery.easing.1.3.min.js"></script>
+      <script src="js/royal-slider-8.1.min.js"></script>
+      <script type="text/javascript" src="js/popup.min.js"></script>
+      <script type="text/javascript" src="js/profile_info.js"></script>
+
+      <title>LiteStack - Converged Cloud Storage</title>
+      <link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+      <!-- start Google Analytics -->
+      <script type="text/javascript">
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-35505298-1']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+      </script><!-- end Google Analytics -->
+
+  </head>
+  <body>
+      <noscript>
+        <p>You must have JavaScript enabled to utilize the full functionality of this website</p>
+      </noscript>
+      <script>
+            $(document).ready(function() {
+                var sliderInstance = $("#mainSlider").royalSlider({
+                    captionShowEffects:["moveleft", "fade"],
+                    directionNavAutoHide: false,
+                    hideArrowOnLastSlide:false,
+                    controlNavEnabled: false,
+                    slideTransitionType: "move"
+                }).data('royalSlider');
+						
+			$("#myControls").children().each(function(index){
+				$(this).click(function(){
+					sliderInstance.goTo(index);
+				})
+			})					
+            });
+      </script>
+    <!-- All Content Wrap -->
+      <div id="main_wrap">
+        <div id="header_wrap">
+          <div id="header_left">
+            <div id="logo">
+            <a href="index.html#">LiteStack Data</a>
+            </div>
+          </div>
+          <div id="header_right">
+            <div id="menu_wrap">
+              <ul>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Partners</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">SWIFT</a></li>
+                <li><a href="">Solutions</a></li>
+                <li><a href="">ZeroVM</a></li>
+             </ul>
+            </div>
+          </div>
+        </div>
+
+        <div id="slide_wrap">
+          <div id="mainSlider" class="royalSlider default">        
+            <ul class="royalSlidesContainer">
+            <!-- Slides Container -->
+              <li class="royalSlide">  <!-- Slide 1 -->
+                <div class="slide_wrap">
+                  <img src="assets/cont_img/bg_data.png" width="219" height="237" />
+                  <div class="content_tab">
+                    <h3>NAS on Object Storage</h3>
+                    <p>Find hidden dependencies in your data and take better decisions</p>
+                  </div>
+                </div>
+              </li> 
+              <li class="royalSlide">  <!-- Slide 2 -->
+                <div class="slide_wrap">
+                  <img src="assets/cont_img/bg_data.png" width="219" height="237" />
+                  <div class="content_tab">
+                    <h3>NAS on Object Storage</h3>
+                    <p>Find hidden dependencies in your data and take better decisions</p>
+                  </div>
+                </div>
+              </li> 
+              <li class="royalSlide">  <!-- Slide 2 -->
+                <div class="slide_wrap">
+                  <img src="assets/cont_img/bg_data.png" width="219" height="237" />
+                  <div class="content_tab">
+                    <h3>NAS on Object Storage</h3>
+                    <p>Find hidden dependencies in your data and take better decisions</p>
+                  </div>
+                </div>
+              </li>                        
+            </ul>
+          </div>
+           <div id="myControls">
+             <a href="#">NAS on Object Storage <b></b><ins></ins></a>
+             <a href="#">Accelerate Big Data <b></b></a>
+             <a href="#" class="l_link">Block Device on Object Storage<ins></ins></a>
+           </div>            
+        </div><!--/slide_wrap-->      
+    
+        <!--Content-->
+        <div id="content">
+          <div class="info_block">
+            <div class="item">
+              <a href="">
+                <div class="icon"><i></i></div>
+                <h4>Meet our Team</h4>
+                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis </p>
+                <ins></ins><ins></ins><ins></ins><ins></ins>
+              </a>
+            </div>
+             <div class="item sec">
+              <a href="">
+                <div class="icon"><i></i></div>
+                <h4>Meet our Team</h4>
+                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis </p>
+                <ins></ins><ins></ins><ins></ins><ins></ins>
+              </a>
+            </div>
+            <div class="item th">
+              <a href="">
+                <div class="icon"><i></i></div>
+                <h4>Meet our Team</h4>
+                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis </p>
+                <ins></ins><ins></ins><ins></ins><ins></ins>
+              </a>
+            </div>                       
+          </div>
+          
+          <div class="events">
+            <div class="events_wrap">
+            
+              <div class="one">
+                <h2>
+                  <label>Featured Projects</label>
+                  <span>
+                    <a href="" class="arr_left"></a>
+                    <a href="" class="arr_right"></a>                    
+                  </span>
+                </h2>
+                
+                <div class="pic">
+                  <div class="pic_wrap">
+                    <img src="assets/cont_img/case.png" alt="" width="128" height="128" />
+                  </div>
+                  <i></i>
+                  <ins></ins>
+                </div>
+                
+                <h3>Post Number Two</h3>
+                <p>Si consenserint possessores non vendere quid futurum est? Referetur pecunia</p>
+              </div>
+              <div class="two">
+                <h2>
+                  <label>Past Events</label>
+                  <span>
+                    <a href="" class="rss"></a>
+                  </span>
+                </h2>
+                <div class="items">
+                  <label class="data">28 JANUARY 2012</label>
+                  <div class="text">
+                    <h3>Post Number One</h3>
+                    <p>Nunc perspicite omnium rerum infinitam atque intolerandam licentiam. Pecunia coacta est ad agros emendos; ei porro ab invitis non ementur. Nunc perspicite omnium rerum infinitam atque intolerandam licentiam. Pecunia coacta est ad agros emendos; ei porro ab invitis non ementur. Nunc perspicite omnium rerum infinitam atque intolerandam licentiam. Pecunia coacta est ad agros emendos; ei porro ab invitis non ementur.</p>
+                  </div>
+                </div>
+                
+                <div class="items">
+                  <label class="data">28 JANUARY 2012</label>
+                  <div class="text">
+                    <h3>Post Number One</h3>
+                    <p>Nunc perspicite omnium rerum infinitam atque intolerandam licentiam. Pecunia coacta est ad agros emendos; ei porro ab invitis non ementur. Nunc perspicite omnium rerum infinitam atque intolerandam licentiam. Pecunia coacta est ad agros emendos; ei porro ab invitis non ementur. Nunc perspicite omnium rerum infinitam atque intolerandam licentiam. Pecunia coacta est ad agros emendos; ei porro ab invitis non ementur.</p>
+                  </div>
+                </div>                
+                
+              </div>
+              
+            </div>
+          </div>
+          
+        </div>
+    
+        <!-- Footer Begins -->
+        <div id="footer_wrap">
+          <div class="footer">
+            <p>© 2001-2012 LiteStack.  All rights reserved.</p>
+            <ul>
+              <li><a href="">Contact</a></li>
+              <li><a href="">Partners</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">SWIFT</a></li>
+              <li><a href="">Solutions</a></li>
+              <li><a href="">ZeroVM</a></li>
+           </ul>            
+          </div>
+        </div>
+    
+  </body>
+</html>
+

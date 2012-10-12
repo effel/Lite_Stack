@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /page2.html
+Disallow: /page3.html
+Disallow: /page4.html
+Disallow: /page_bios.html
+Disallow: /mock
